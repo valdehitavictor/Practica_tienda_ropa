@@ -4,35 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="extras/fontawesome/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
     <title>PaginaDeRopa</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <h4> <span> Consigue un 30% de dto.</span> en productos de precio completo después de tus compras </h4>
         <p>*el cupón valido en 23/05 05:00</p>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Mujer</a>
-            <a href="#">Tallas Grandes</a>
-            <a href="#">Niños</a>
-            <a href="#">Hombres</a>
-            <a href="#">Belleza</a>
-        </li>
-        <a href="index.html"><img src="img/Shein-logo.png" alt="logo"></a>
-    </ul>
-    <i class="fa-solid fa-user"></i>
-    <i class="fa-solid fa-basket-shopping"></i>
-    <i class="fa-regular fa-heart"></i>
-    <i class="fa-solid fa-headset"></i>
-    <i class="fa-solid fa-globe"></i>
+    <nav class="nav">
+        <div>
+            <ul>
+                <li>
+                    <a href="#">Mujer</a>
+                    <a href="#">Tallas Grandes</a>
+                    <a href="#">Niños</a>
+                    <a href="#">Hombres</a>
+                    <a href="#">Belleza</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <a class="texto-enlace" href="index.html">Shein</a>
+        </div>
+        <div class="iconos">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-basket-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-headset"></i>
+            <i class="fa-solid fa-globe"></i>
+        </div>
     </nav>
-    <section><img src="img/envios.gif" alt="envios"></section>
-    <section><img src="img/devolucion.gif" alt="devolucion"></section>
-    <section><img src="img/primerpedido.gif" alt="primerpedido"></section>
-    <section><p>solo en la app <span>Consigue un 15% de dto. En pedidos de +35€</span> codigo qrs45</p> </section>
-    <main>
+    <div class="secciones-img">
+        <section><img src="img/envios.gif" alt="envios"></section>
+        <section><img src="img/devolucion.gif" alt="devolucion"></section>
+        <section><img src="img/primerpedido.gif" alt="primerpedido"></section>
+    </div>
+    <div class="secciones-p">
+        <section><p>solo en la app <span>Consigue un 15% de dto. En pedidos de +35€</span> <span class="codigo-promo"> código qrs45 </span></p> </section>
+    </div>
+    <main class="p-principal">
         <img src="img/fotosmain.webp" alt="princial">
     </main>
 </body>
